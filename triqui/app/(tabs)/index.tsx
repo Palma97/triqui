@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Platform, View, Text } from "react-native";
+import { Image, StyleSheet, View, Text } from "react-native";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 
 export default function HomeScreen() {
@@ -16,8 +16,8 @@ export default function HomeScreen() {
         <Text style={styles.titleContainer}>Welcome to play!</Text>
         <Text style={styles.textHome}>
           Mi nombre es Nicolás Palma, y quiero mostrarles un poco de mi trabajo,
-          hoy les traigo el popular juego "Triqui", para un rato agradable entre
-          amigos o familia, mil gracias, espero les guste.
+          hoy les traigo un juego de memoria muy popular con animales, para un
+          rato agradable, mil gracias, espero les guste.
         </Text>
         <Image
           style={styles.imageNicolacho}
